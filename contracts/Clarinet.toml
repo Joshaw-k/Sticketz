@@ -1,5 +1,5 @@
 [project]
-name = 'registry'
+name = 'contracts'
 description = ''
 authors = []
 telemetry = true
@@ -7,6 +7,16 @@ cache_dir = './.cache'
 requirements = []
 [contracts.registry]
 path = 'contracts/registry.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.settlement]
+path = 'contracts/settlement.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.sticketz]
+path = 'contracts/sticketz.clar'
 clarity_version = 3
 epoch = 3.1
 [repl.analysis]
